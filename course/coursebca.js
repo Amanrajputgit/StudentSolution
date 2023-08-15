@@ -4,33 +4,33 @@
  document.getElementById("bcasem1").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bca/bcasyllabus1sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bca/bcasyllabus1sem.html')
     }
  )
 
  document.getElementById("bcasem2").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bca/bcasyllabus2sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bca/bcasyllabus2sem.html')
     }
  )
  document.getElementById("bcasem3").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bca/bcasyllabus3sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bca/bcasyllabus3sem.html')
     }
  )
  document.getElementById("bcasem4").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bca/bcasyllabus4sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bca/bcasyllabus4sem.html')
     }
  )
  document.getElementById("bcasem5").addEventListener(
     "click",
     ()=>{
         
-        window.open('/syllabus/bca/bcasyllabus5sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bca/bcasyllabus5sem.html')
     }
  )
  
@@ -40,7 +40,7 @@ document.getElementById("lastsem1").addEventListener(
     "click",
     ()=>{
         
-        window.open('/lastsempaper/BCA/lastyear1.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/lastsempaper/BCA/lastyear1.html')
     }
  )
 
@@ -48,20 +48,20 @@ document.getElementById("lastsem1").addEventListener(
     "click",
     ()=>{
         
-        window.open('/lastsempaper/BCA/lastyear2.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/lastsempaper/BCA/lastyear2.html')
     }
  )
  document.getElementById("lastsem3").addEventListener(
     "click",
     ()=>{
         
-        window.open('/lastsempaper/BCA/lastyear3.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/lastsempaper/BCA/lastyear3.html')
     }
  )
  document.getElementById("lastsem4").addEventListener(
     "click",
     ()=>{
         
-        window.open('/lastsempaper/BCA/lastyear4.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/lastsempaper/BCA/lastyear4.html')
     }
  )
