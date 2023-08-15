@@ -3,7 +3,7 @@
 document.getElementById("bbasem1").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bba/bbasyllabus1sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bba/bbasyllabus1sem.html')
         
 
     }
