@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="icon 2.PNG">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="course.css"> -->
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" id="checkbutton"><i class="fa fa-bars"></i></label>
+        <label class="logo"><a class="logo-home" href="index.html">Student Solution</a></label>
+        <ul>
+            <li> <a class="" href="index.html">Home</a></li>
+            <li> <a  class="" href="index.html#courses">Course</a>
+                <!-- <ul id="submenu" class="sub">
+                    <li><a href="bba.html">BBA</a></li>
+                    <li><a href="bca.html">BCA</a></li>
+                </ul> -->
+            </li>
+            <li> <a href="index.html#about">About</a></li>
+            <li> <a  class="active" href="contactus.html">Contact us</a></li>
+            <li>
+            <div class="toggle-btn">
+                <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="toggle-label">
+                        <span class="toggle-ball"></span>
+                    </label>
+            </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- contact us -->
+    
+    <div class="formBox">
+        <h2>Contact Us</h2>
+
+        <!-- <p>You will hear from us at the earliest!</p> -->
+
+        <form action="https://formspree.io/f/xyyqzgeo" method="post">
+            <div class="nameInp">
+                <i class="fa fa-user icon"></i>
+                <input type="text" placeholder="Full Name" name="name" id="name" required>
+  
+            </div>
+            <div class="mailInp">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" id="mail" placeholder="Email" required>
+            </div>
+            <div class="phoneInp">
+                <i class="fa-solid fa-phone"></i>
+                <input type="number" name="phone" id="phone" placeholder="Phone" min="100000" max="9999999999" required>
+            </div>
+            <div class="queryInp">
+                <textarea name="message" id="query" cols="30" rows="5"
+                    placeholder="Any comment or your query" ></textarea>
+            </div>
+            <div class="submitBtn">
+                <button  type="submit" id="btn" onclick="notif()">Send</button>
+            </div>
+        </form>
+        <p class="extra"></p>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
