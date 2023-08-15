@@ -11,7 +11,7 @@ document.getElementById("bbasem1").addEventListener(
  document.getElementById("bbasem2").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bba/bbasyllabus2sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bba/bbasyllabus2sem.html')
         
 
     }
@@ -19,7 +19,7 @@ document.getElementById("bbasem1").addEventListener(
  document.getElementById("bbasem3").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bba/bbasyllabus3sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bba/bbasyllabus3sem.html')
         
 
     }
@@ -27,7 +27,7 @@ document.getElementById("bbasem1").addEventListener(
  document.getElementById("bbasem4").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bba/bbasyllabus4sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bba/bbasyllabus4sem.html')
         
 
     }
@@ -35,7 +35,7 @@ document.getElementById("bbasem1").addEventListener(
  document.getElementById("bbasem5").addEventListener(
     "click",
     ()=>{
-        window.open('/syllabus/bba/bbasyllabus5sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bba/bbasyllabus5sem.html')
         
 
     }
@@ -45,6 +45,6 @@ document.getElementById("bbasem1").addEventListener(
     "click",
     ()=>{
         
-        window.open('/syllabus/bba/bbasyllabus6sem.html')
+        window.open('https://amanrajputgit.github.io/StudentSolution/syllabus/bba/bbasyllabus6sem.html')
     }
  )
